@@ -4,10 +4,12 @@ import { StyleSheet } from 'react-native'
 const homePageStyles = StyleSheet.create(
     {
         container: {
-            padding: 16
+            flex: 1,
+            paddingHorizontal: 16,
+            backgroundColor: '#FFFFFF'
         },
         pageTitleContainer: {
-            paddingVertical: 32,
+            paddingTop: 32,
             alignItems: 'center',
             justifyContent: 'center',
         },
@@ -16,20 +18,12 @@ const homePageStyles = StyleSheet.create(
             fontSize: 64,
         },
         pageSubtitle: {
-            fontSize: 24,
+            fontSize: 16,
         },
         pagePurpleSubtitle: {
             color: '#6730EC',
             fontSize: 24,
         },
-        card: {
-            padding: 8,
-            borderRadius: 4,
-            margin: 4,
-            width: '47%',
-            alignItems: "center",
-            elevation: 2
-        }
     }
 )
 
